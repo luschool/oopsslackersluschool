@@ -16,16 +16,16 @@ Discussing the option of IRC -
 
 [IRC WIKI](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
 
-I currently have a channel setup on the Freenode.net server named ##oopsslackers
-There are many IRC client options. Currently I'm using HexChat because it supports most operating systems
+I currently have a channel setup on the **Freenode.net** server named **##oopsslackers**
+There are many IRC client options. Currently I'm using **HexChat** because it supports most operating systems
 and is free to use. Check google for popular mobile clients. Webchat available through https://webchat.freenode.net/
 If we go the route of IRC I will provide seperate documentation on the easiest way to connect 
 to our server if you're having trouble. 
 
 ## GitHub Oganization and Project
 
-[GitHub Organization Link](https://github.com/OopsSlackers)
-[Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
+* [GitHub Organization Link](https://github.com/OopsSlackers)
+* [Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
 
 I started a new organization and sent invites the github accounts I know. Missing a few so get in contact with me for an invite.
 We may be able to just use the FOSSClass organization for a project and repository I just need to check the permissions to
@@ -33,12 +33,12 @@ make sure we can limit access to only our group.
 
 **GitHub profile links for known group members**
 
-[Ali](https://github.com/caqlishire)
-[Alex](https://github.com/rarar0)
-[Lou](https://github.com/LouVang97)
-[Lucas](https://github.com/luschool)
-[Pavel](https://github.com/paveldanek)
-[Tom](https://github.com/bigmantate)
+* [Ali](https://github.com/caqlishire)
+* [Alex](https://github.com/rarar0)
+* [Lou](https://github.com/LouVang97)
+* [Lucas](https://github.com/luschool)
+* [Pavel](https://github.com/paveldanek)
+* [Tom](https://github.com/bigmantate)
 
 If your name is not here its because I dont know your github profile name.
 
