@@ -4,7 +4,7 @@
 This is my documentation for my personal research and progress for week 1 of the group project.
 
 **Important Links -**
-* [GitHub Organization Link](https://github.com/OopsSlackers)
+* [Group Github Organization Link](https://github.com/OopsSlackers)
 * [Group Project Location](https://github.com/orgs/OopsSlackers/projects/1)
 * [Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
 * [Last Weeks Class Notes](https://github.com/luschool/oopsslackerstemp/blob/master/Notes.md)
