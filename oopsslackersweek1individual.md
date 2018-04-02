@@ -138,12 +138,12 @@ just to show broad goals for the near future. I'm using question marks to note m
 high chance parts are incorrect. This is more of a way for me to visualize what all is required to help me focus 
 my research and find answers to all the questions I have. 
 
-Setup a TFTP server on a Raspberry Pi to host iPXE files.
-Setup a DHCP server on the same Raspberry Pi.
-Is a file server required? What advantages does it offer?(Security?)
-Build a binary version of iPXE as an ISO or download a prebuilt binary and place a copy on the TFTP server.
-Follow the chainloading iPXE procedures here - [Chainloading iPXE](http://ipxe.org/howto/chainloading)
-Stopping here to focus our efforts if possible. 
+* Setup a TFTP server on a Raspberry Pi to host iPXE files.
+* Setup a DHCP server on the same Raspberry Pi.
+* Is a file server required? What advantages does it offer?(Security?)
+* Build a binary version of iPXE as an ISO or download a prebuilt binary and place a copy on the TFTP server.
+* Follow the chainloading iPXE procedures here - [Chainloading iPXE](http://ipxe.org/howto/chainloading)
+* Stopping here to focus our efforts if possible. 
 
 
 
