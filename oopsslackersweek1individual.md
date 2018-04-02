@@ -1,12 +1,11 @@
 # Oops Slackers Week 1 Individual Documentation
-## By Lucas Merriott
-***
+### By Lucas Merriott
 
 This is my documentation for my personal research and progress for week 1 of the group project.
 
 ## Table of contents
 1. [Weekly Goals](#goals)
-2. [Research](#Research)
+2. [Research](#research)
    1. [Netboot.xyz](#netbootxyz)
    1. [iPXE](#ipxe)
    1. [Windows Deployment Services](#wds)
@@ -14,13 +13,9 @@ This is my documentation for my personal research and progress for week 1 of the
    1. [Raspberry Pi Protocols and Guides](#raspbpi)
 3. [Initial Steps and Goals](#steps)
 
-### Initial Steps -  <a name="steps"></a>
-This is a sub paragraph, formatted in heading 3 style
+<a name="goals"></a>
 
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
-
-## Weekly Goals - <a name="goals"></a>
+## Weekly Goals - 
 
 These are the goals I set for myself for the week and hope to tackle them all with the limited time I have.
 
@@ -31,14 +26,17 @@ These are the goals I set for myself for the week and hope to tackle them all wi
 	5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
 	6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
 
-	
+<a name="">research</a>
+
 ## Research - 
 
 Below is a summary of my research results. My plan going into this was to try to get a good grasp of the basics of each 
 important part of the operation. Once each of us have a good grasp of each part we should have an easier time deciding
 what rols we would prefer to take on and where we think we could be most useful. 
 
-### Netboot.xyz -  <a name="netbootxyz"></a>
+<a name="netbootxyz"></a>
+
+### Netboot.xyz -  
 
 Netboot.xyz is a bootloader tool to boot into a variety of Operating system installers or utilities over the network from 
 a single menu system from within the BIOS. The bootloader is extremely light weight in size and flexible. It allows customization of things
@@ -56,8 +54,9 @@ Links -
 * [Netbooting fundamentals and getting started](http://networkboot.org/fundamentals/)
 * [Basic Netbooting Overview](http://www.opsschool.org/en/latest/netbooting.html)
 
+<a name="ipxe"></a>
 
-### iPXE -  <a name="ipxe"></a>
+### iPXE -  
 
 iPXE is a free and open source implementation of the Preboot eXecution Environment(PXE) Client firmware and bootloader.
 iPXE is the firmware itself that will fascilitate the network boot portion of the operation. iPXE can either replace the 
@@ -69,7 +68,9 @@ Links -
 * [Chainloading iPXE](http://ipxe.org/howto/chainloading)
 * [iPXE Wiki](https://en.wikipedia.org/wiki/IPXE)
 
-### Windows Deployment Services -  <a name="wds"></a>
+<a name="wds"></a>
+
+### Windows Deployment Services -  
 
 While the above technology can be used for a variety of useful reasons, our major focus is remotely 
 booting a system and deploying a clean Windows 7 operating system install. To accomplish this 
@@ -88,8 +89,9 @@ Links -
 * [iPXE Chainloading WDS Info](http://ipxe.org/appnote/chainload_wds)
 * [MS DHCP iPXE Chainloading](http://ipxe.org/howto/msdhcp#pxe_chainloading)
 
+<a name="winpe"></a>
 
-### Windows Presinstallation Environment - <a name="winpe"></a>
+### Windows Presinstallation Environment - 
 
 Windows Preinstallation Environment is a lightweight version of Windows used to deploy and repair Windows machines. It's available 
 inside the collection of tools Windows Assessment and Deployment Kit(Windows ADK). It is intended to be used as as a thin client or
@@ -105,8 +107,9 @@ Links -
 * [iPXE wimboot Documentation](http://ipxe.org/wimboot)
 * [Microsoft Documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro)
 
+<a name="raspbpi"></a>
 
-### Raspberry Pi Protocols and Guides -  <a name="raspbpi"></a>
+### Raspberry Pi Protocols and Guides -  
 
 I'm finding a decent amount of conflicting information about iPXE and Raspberry Pi. I think they're saying its not possible or easy
 to netboot the raspberry pi itself as oppose to using the Raspberry Pi as the server to host the files to netboot another system.
@@ -120,13 +123,14 @@ NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.de
 SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - https://www.raspberrypi.org/magpi/samba-file-server/
 Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
 
+<a name="steps"></a>
 
-### Initial Steps and Goals -  <a name="steps"></a>
+### Initial Steps and Goals -  
 
-* DISCLAIMER * This will be where I write down my understanding of our initial steps and questions that need answers to get the project 
-off the ground. Only putting down the basic steps not the full details required for each one. Using question marks to note my 
-uncertainty because there's a high chance parts will be incorrect. This is more of a way for me to visualize what all is 
-required to help me focus my research and find answers to any questions I have. 
+**DISCLAIMER** This is a basic outline of the steps it seems we must take first to start building this system. Not going into
+full detail since its just to show some goals for the near future. I'm using question marks to note my uncertainty because 
+there's a high chance parts are incorrect. This is more of a way for me to visualize what all is required to help me focus 
+my research and find answers to all the questions I have. 
 
 Setup a TFTP server on a Raspberry Pi to host iPXE files.
 Setup a DHCP server on the same Raspberry Pi.
