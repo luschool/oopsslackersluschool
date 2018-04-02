@@ -27,6 +27,7 @@ to our server if you're having trouble.
 ## GitHub Oganization and Project
 
 * [GitHub Organization Link](https://github.com/OopsSlackers)
+* [Group Project Location](https://github.com/orgs/OopsSlackers/projects/1)
 * [Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
 
 I started a new organization and sent invites the github accounts I know. Missing a few so get in contact with me for an invite.
