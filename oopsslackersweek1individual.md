@@ -17,7 +17,7 @@ This is my documentation for my personal research and progress for week 1 of the
    1. [Windows Deployment Services](#wds)
    1. [Windows Presinstallation Environment](#winpe)
    1. [Raspberry Pi Protocols and Guides](#raspbpi)
-3. [Initial Steps and Goals](#steps)
+3. [Goals Going Forward](#future)
 
 <a name="goals"></a>
 
@@ -129,13 +129,13 @@ NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.de
 SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - https://www.raspberrypi.org/magpi/samba-file-server/
 Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
 
-<a name="steps"></a>
+<a name="future"></a>
 
-### Initial Steps and Goals -  
+### Goals Going Forward -  
 
-**DISCLAIMER** This is a basic outline of the steps it seems we must take first to start building this system. Not going into
-full detail since its just to show some goals for the near future. I'm using question marks to note my uncertainty because 
-there's a high chance parts are incorrect. This is more of a way for me to visualize what all is required to help me focus 
+**DISCLAIMER** This is a basic outline of what I blieve the next steps are. Not going into full detail since its 
+just to show broad goals for the near future. I'm using question marks to note my uncertainty because there's a 
+high chance parts are incorrect. This is more of a way for me to visualize what all is required to help me focus 
 my research and find answers to all the questions I have. 
 
 Setup a TFTP server on a Raspberry Pi to host iPXE files.
