@@ -1,17 +1,139 @@
-# Table of contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+# Oops Slackers Week 1 Individual Documentation
+## By Lucas Merriott
+***
 
-## This is the introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
+This is my documentation for my personal research and progress for week 1 of the group project.
 
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
+## Table of contents
+1. [Weekly Goals](#goals)
+2. [Research](#Research)
+   1. [Netboot.xyz](#netbootxyz)
+   1. [iPXE](#ipxe)
+   1. [Windows Deployment Services](#wds)
+   1. [Windows Presinstallation Environment](#winpe)
+   1. [Raspberry Pi Protocols and Guides](#raspbpi)
+3. [Initial Steps and Goals](#steps)
 
-### Sub paragraph <a name="subparagraph1"></a>
+### Initial Steps -  <a name="steps"></a>
 This is a sub paragraph, formatted in heading 3 style
 
 ## Another paragraph <a name="paragraph2"></a>
 The second paragraph text
+
+## Weekly Goals - <a name="goals"></a>
+
+These are the goals I set for myself for the week and hope to tackle them all with the limited time I have.
+
+	1. Setup a github organization for communication and collaboration. (Complete)
+	2. Using that organization I will start a project board for clear goals to be displayed and tracked each week. (Almost Complete)
+	3. Communicate with each member if possible and agree on a method of group communication outside of github. (Complete)
+	4. Briefly research each major part of the project and decide where I would prefer to focus if possible. (Complete) 
+	5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
+	6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
+
+	
+## Research - 
+
+Below is a summary of my research results. My plan going into this was to try to get a good grasp of the basics of each 
+important part of the operation. Once each of us have a good grasp of each part we should have an easier time deciding
+what rols we would prefer to take on and where we think we could be most useful. 
+
+### Netboot.xyz -  <a name="netbootxyz"></a>
+
+Netboot.xyz is a bootloader tool to boot into a variety of Operating system installers or utilities over the network from 
+a single menu system from within the BIOS. The bootloader is extremely light weight in size and flexible. It allows customization of things
+such as the menu. Netboot.xyz uses and relies on the tool iPXE which will be researched in the next section. 
+
+The bootloader calls to a server that hosts the iPXE source files. Those sources files will contain and menus and logic for
+the specified installer or utilities operation. Certain operating system installers will require additional resources
+and technologies like WDS/WinPE for installing Windows environments. Netboot.xyz will also associate and retrieve the images 
+that are stored in the remote project dirctory as well as using trust mirrors(Optional).
+
+Links - 
+* [Netboot.xyz](https://netboot.xyz/)
+* [Github](https://github.com/antonym/netboot.xyz)
+* [Boot options documentation](http://netbootxyz.readthedocs.io/en/latest/boot-ipxe/)
+* [Netbooting fundamentals and getting started](http://networkboot.org/fundamentals/)
+* [Basic Netbooting Overview](http://www.opsschool.org/en/latest/netbooting.html)
+
+
+### iPXE -  <a name="ipxe"></a>
+
+iPXE is a free and open source implementation of the Preboot eXecution Environment(PXE) Client firmware and bootloader.
+iPXE is the firmware itself that will fascilitate the network boot portion of the operation. iPXE can either replace the 
+exsisting PXE ROM on your network card, or chainloads into iPXE to obtain the features of iPXE without reflashing. 
+iPXE offers additional features over standard PXE such as netbooting through HTTP.
+
+Links -
+* [iPXE](http://ipxe.org/start)
+* [Chainloading iPXE](http://ipxe.org/howto/chainloading)
+* [iPXE Wiki](https://en.wikipedia.org/wiki/IPXE)
+
+### Windows Deployment Services -  <a name="wds"></a>
+
+While the above technology can be used for a variety of useful reasons, our major focus is remotely 
+booting a system and deploying a clean Windows 7 operating system install. To accomplish this 
+we will have to utilize Windows Deployment Services(WDS) and Windows Preinstallation Environment(WinPE).
+
+Windows Deployment Services is a server technology made and provided by Microsoft. In basic terms it provides the 
+resources and functionality to allow you to install and setup Windows operating systems from a remote network 
+location as oppose to physically visiting each computer individually. It uses PXE, DHCP, and TFTP to bootstrap 
+Windows Preinstallation Environment(WinPE) which will be researched in the next section.
+
+WDS will be chainloaded from iPXE which provides great functionality and options. 
+
+Links -
+* [WDS Wiki](https://en.wikipedia.org/wiki/Windows_Deployment_Services)
+* [MSDN](https://msdn.microsoft.com/en-us/library/cc265612.aspx)
+* [iPXE Chainloading WDS Info](http://ipxe.org/appnote/chainload_wds)
+* [MS DHCP iPXE Chainloading](http://ipxe.org/howto/msdhcp#pxe_chainloading)
+
+
+### Windows Presinstallation Environment - <a name="winpe"></a>
+
+Windows Preinstallation Environment is a lightweight version of Windows used to deploy and repair Windows machines. It's available 
+inside the collection of tools Windows Assessment and Deployment Kit(Windows ADK). It is intended to be used as as a thin client or
+an embedded operating system. You can also bundle files, folders, apps, and more into the image file, which allows you to preconfigure
+the machines you intend to deploy with important software and files. 
+
+With the help of iPXE and wimboot you're able to boot into Windows PE on a remote system through HTTP. Allowing you to install 
+a network hosted image file to the machine you connected to. HTTP has the added benefit of much faster speeds than the TFTP methods. 
+
+Links - 
+* [WinPE Wiki](https://en.wikipedia.org/wiki/Windows_Preinstallation_Environment)
+* [iPXE WinPE Documentation](http://ipxe.org/howto/winpe)
+* [iPXE wimboot Documentation](http://ipxe.org/wimboot)
+* [Microsoft Documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro)
+
+
+### Raspberry Pi Protocols and Guides -  <a name="raspbpi"></a>
+
+I'm finding a decent amount of conflicting information about iPXE and Raspberry Pi. I think they're saying its not possible or easy
+to netboot the raspberry pi itself as oppose to using the Raspberry Pi as the server to host the files to netboot another system.
+I read its best to use Network File System(NFS) for netbooting to deploy Linux.
+The same article said Common Internet File System(CIFS) aka Server Message Block(SMB) was best for netbooting to deploy Windows installs.
+
+TFTP server - tftpd-hpa - Port 69 - https://packages.debian.org/stretch/tftpd-hpa
+DHCP server - isc-dhcp-server - Port 6768? 4011? 1194? - https://packages.debian.org/stretch/isc-dhcp-server
+https://www.isc.org/dhcp-manual-pages/ - http://www.noveldevices.co.uk/rp-dhcp-server
+NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.debian.org/stretch/nfs-kernel-server - https://packages.debian.org/stretch/nfs-common
+SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - https://www.raspberrypi.org/magpi/samba-file-server/
+Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
+
+
+### Initial Steps and Goals -  <a name="steps"></a>
+
+* DISCLAIMER * This will be where I write down my understanding of our initial steps and questions that need answers to get the project 
+off the ground. Only putting down the basic steps not the full details required for each one. Using question marks to note my 
+uncertainty because there's a high chance parts will be incorrect. This is more of a way for me to visualize what all is 
+required to help me focus my research and find answers to any questions I have. 
+
+Setup a TFTP server on a Raspberry Pi to host iPXE files.
+Setup a DHCP server on the same Raspberry Pi.
+Is a file server required? What advantages does it offer?(Security?)
+Build a binary version of iPXE as an ISO or download a prebuilt binary and place a copy on the TFTP server.
+Follow the chainloading iPXE procedures here - [Chainloading iPXE](http://ipxe.org/howto/chainloading)
+Stopping here to focus our efforts if possible. 
+
+
+
