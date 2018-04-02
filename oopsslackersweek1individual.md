@@ -15,7 +15,7 @@ This is my documentation for my personal research and progress for week 1 of the
    1. [Netboot.xyz](#netbootxyz)
    1. [iPXE](#ipxe)
    1. [Windows Deployment Services](#wds)
-   1. [Windows Presinstallation Environment](#winpe)
+   1. [Windows Preinstallation Environment](#winpe)
    1. [Raspberry Pi Protocols and Guides](#raspbpi)
 3. [Goals Going Forward](#future)
 
@@ -38,7 +38,7 @@ These are the goals I set for myself for the week and hope to tackle them all wi
 
 Below is a summary of my research results. My plan going into this was to try to get a good grasp of the basics of each 
 important part of the operation. Once each of us have a good grasp of each part we should have an easier time deciding
-what rols we would prefer to take on and where we think we could be most useful. 
+what roles we would prefer to take on and where we think we could be most useful. 
 
 <a name="netbootxyz"></a>
 
@@ -51,7 +51,7 @@ of things such as the menu. Netboot.xyz uses and relies on the tool iPXE which w
 The bootloader calls to a server that hosts the iPXE source files. Those sources files will contain and menus and logic for
 the specified installer or utilities operation. Certain operating system installers will require additional resources
 and technologies like WDS/WinPE for installing Windows environments. Netboot.xyz will also associate and retrieve the images 
-that are stored in the remote project dirctory as well as using trust mirrors(Optional).
+that are stored in the remote project directory as well as using trust mirrors(Optional).
 
 Links - 
 * [Netboot.xyz](https://netboot.xyz/)
@@ -65,8 +65,8 @@ Links -
 ### iPXE -  
 
 iPXE is a free and open source implementation of the Preboot eXecution Environment(PXE) Client firmware and bootloader.
-iPXE is the firmware itself that will fascilitate the network boot portion of the operation. iPXE can either replace the 
-exsisting PXE ROM on your network card, or chainloads into iPXE to obtain the features of iPXE without reflashing. 
+iPXE is the firmware itself that will facilitate the network boot portion of the operation. iPXE can either replace the 
+existing PXE ROM on your network card, or chainloads into iPXE to obtain the features of iPXE without reflashing. 
 iPXE offers additional features over standard PXE such as netbooting through HTTP.
 
 Links -
@@ -100,7 +100,7 @@ Links -
 ### Windows Presinstallation Environment - 
 
 Windows Preinstallation Environment is a lightweight version of Windows used to deploy and repair Windows machines. It's available 
-inside the collection of tools Windows Assessment and Deployment Kit(Windows ADK). It is intended to be used as as a thin client or
+inside the collection of tools Windows Assessment and Deployment Kit(Windows ADK). It is intended to be used as a thin client or
 an embedded operating system. You can also bundle files, folders, apps, and more into the image file, which allows you to preconfigure
 the machines you intend to deploy with important software and files. 
 
@@ -133,7 +133,7 @@ Web Server Useful? - Research needed for http boot utilization with wimboot - ht
 
 ### Goals Going Forward -  
 
-**DISCLAIMER** This is a basic outline of what I blieve the next steps are. Not going into full detail since its 
+**DISCLAIMER** This is a basic outline of what I believe the next steps are. Not going into full detail since its 
 just to show broad goals for the near future. I'm using question marks to note my uncertainty because there's a 
 high chance parts are incorrect. This is more of a way for me to visualize what all is required to help me focus 
 my research and find answers to all the questions I have. 
