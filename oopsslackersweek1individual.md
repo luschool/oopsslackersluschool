@@ -123,10 +123,16 @@ I read its best to use Network File System(NFS) for netbooting to deploy Linux.
 The same article said Common Internet File System(CIFS) aka Server Message Block(SMB) was best for netbooting to deploy Windows installs.
 
 TFTP server - tftpd-hpa - Port 69 - https://packages.debian.org/stretch/tftpd-hpa
+
 DHCP server - isc-dhcp-server - Port 6768? 4011? 1194? - https://packages.debian.org/stretch/isc-dhcp-server
 https://www.isc.org/dhcp-manual-pages/ - http://www.noveldevices.co.uk/rp-dhcp-server
-NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.debian.org/stretch/nfs-kernel-server - https://packages.debian.org/stretch/nfs-common
-SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - https://www.raspberrypi.org/magpi/samba-file-server/
+
+NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.debian.org/stretch/nfs-kernel-server - 
+https://packages.debian.org/stretch/nfs-common
+
+SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - 
+https://www.raspberrypi.org/magpi/samba-file-server/
+
 Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
 
 <a name="future"></a>
