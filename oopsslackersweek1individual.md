@@ -1,7 +1,13 @@
-# Oops Slackers Week 1 Individual Documentation
+# Team Oops Slackers Week 1 Individual Documentation
 ### By Lucas Merriott
 
 This is my documentation for my personal research and progress for week 1 of the group project.
+
+**Important Links -**
+* [GitHub Organization Link](https://github.com/OopsSlackers)
+* [Group Project Location](https://github.com/orgs/OopsSlackers/projects/1)
+* [Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
+* [Last Weeks Class Notes](https://github.com/luschool/oopsslackerstemp/blob/master/Notes.md)
 
 ## Table of contents
 1. [Weekly Goals](#goals)
@@ -19,12 +25,12 @@ This is my documentation for my personal research and progress for week 1 of the
 
 These are the goals I set for myself for the week and hope to tackle them all with the limited time I have.
 
-1. Setup a github organization for communication and collaboration. (Complete)
-2. Using that organization I will start a project board for clear goals to be displayed and tracked each week. (Almost Complete)
-3. Communicate with each member if possible and agree on a method of group communication outside of github. (Complete)
-4. Briefly research each major part of the project and decide where I would prefer to focus if possible. (Complete) 
-5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
-6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
+   1. Setup a github organization for communication and collaboration. (Complete)
+   2. Using that organization I will start a project board for clear goals to be displayed and tracked each week. (Almost Complete)
+   3. Communicate with each member if possible and agree on a method of group communication outside of github. (Complete)
+   4. Briefly research each major part of the project and decide where I would prefer to focus if possible. (Complete) 
+   5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
+   6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
 
 <a name="research"></a>
 
@@ -39,8 +45,8 @@ what rols we would prefer to take on and where we think we could be most useful.
 ### Netboot.xyz -  
 
 Netboot.xyz is a bootloader tool to boot into a variety of Operating system installers or utilities over the network from 
-a single menu system from within the BIOS. The bootloader is extremely light weight in size and flexible. It allows customization of things
-such as the menu. Netboot.xyz uses and relies on the tool iPXE which will be researched in the next section. 
+a single menu system from within the BIOS. The bootloader is extremely light weight in size and flexible. It allows customization 
+of things such as the menu. Netboot.xyz uses and relies on the tool iPXE which will be researched in the next section. 
 
 The bootloader calls to a server that hosts the iPXE source files. Those sources files will contain and menus and logic for
 the specified installer or utilities operation. Certain operating system installers will require additional resources
