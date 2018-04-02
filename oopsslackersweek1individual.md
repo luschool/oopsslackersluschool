@@ -25,12 +25,12 @@ This is my documentation for my personal research and progress for week 1 of the
 
 These are the goals I set for myself for the week and hope to tackle them all with the limited time I have.
 
-   1. Setup a github organization for communication and collaboration. (Complete)
-   2. Using that organization I will start a project board for clear goals to be displayed and tracked each week. (Almost Complete)
-   3. Communicate with each member if possible and agree on a method of group communication outside of github. (Complete)
-   4. Briefly research each major part of the project and decide where I would prefer to focus if possible. (Complete) 
-   5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
-   6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
+      1. Setup a github organization for communication and collaboration. (Complete)
+      2. Using that organization I will start a project board for clear goals to be displayed and tracked each week. (Almost Complete)
+      3. Communicate with each member if possible and agree on a method of group communication outside of github. (Complete)
+      4. Briefly research each major part of the project and decide where I would prefer to focus if possible. (Complete) 
+      5. Communicate with each member so we can discuss and assign group roles if possible before our next meeting. (In The Process) 
+      6. Layout a roadmap of the very first steps for getting started if time allows. (Complete)
 
 <a name="research"></a>
 
