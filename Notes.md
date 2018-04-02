@@ -10,7 +10,9 @@ multiple machines at the same time.
 
 ## Communication Methods
 
-Currently using Signal.
+Currently using Signal for mobile along with Signal desktop. 
+
+[Signal Download](https://signal.org/download/)
 
 Discussing the option of IRC -
 
@@ -35,10 +37,12 @@ make sure we can limit access to only our group.
 
 * [Ali](https://github.com/caqlishire)
 * [Alex](https://github.com/rarar0)
+* [Bryce](https://github.com/Zetiaaa)
 * [Lou](https://github.com/LouVang97)
 * [Lucas](https://github.com/luschool)
 * [Pavel](https://github.com/paveldanek)
 * [Tom](https://github.com/bigmantate)
+
 
 If your name is not here its because I dont know your github profile name.
 
