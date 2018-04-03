@@ -115,21 +115,16 @@ Links -
 
 ### Raspberry Pi Protocols and Guides -  
 
-I'm finding a decent amount of conflicting information about iPXE and Raspberry Pi. I think they're saying its not possible or easy
-to netboot the raspberry pi itself as oppose to using the Raspberry Pi as the server to host the files to netboot another system.
-I read its best to use Network File System(NFS) for netbooting to deploy Linux.
-The same article said Common Internet File System(CIFS) aka Server Message Block(SMB) was best for netbooting to deploy Windows installs.
+I'm finding a decent amount of conflicting information about iPXE and Raspberry Pi and need to dig deeper. I read its best to 
+use Network File System(NFS) for netbooting to deploy Linux. The same article said Common Internet File System(CIFS) aka 
+Server Message Block(SMB) was best for netbooting to deploy Windows installs.
+Protocol | Package Name | Port(s) | Package Link | Documentation
+| --- | --- | --- | --- | ---
+TFTP server | tftpd-hpa | Port 69 | [Package](https://packages.debian.org/stretch/tftpd-hpa) |
 
-TFTP server - tftpd-hpa - Port 69 - https://packages.debian.org/stretch/tftpd-hpa
-
-DHCP server - isc-dhcp-server - Port 6768? 4011? 1194? - https://packages.debian.org/stretch/isc-dhcp-server
-https://www.isc.org/dhcp-manual-pages/ - http://www.noveldevices.co.uk/rp-dhcp-server
-
-NFS File Server - nfs-kernel-server nfs-common - Port 2049 - https://packages.debian.org/stretch/nfs-kernel-server - 
-https://packages.debian.org/stretch/nfs-common
-
-SMB File Server - samba - TCP ports 139/445 - UDP ports 137/138 - https://packages.debian.org/stretch/samba - 
-https://www.raspberrypi.org/magpi/samba-file-server/
+DHCP server | isc-dhcp-server | Port 6768? 4011? 1194? | [Package](https://packages.debian.org/stretch/isc-dhcp-server) | [Documentation](https://www.isc.org/dhcp-manual-pages/)
+NFS File Server | nfs-kernel-server nfs-common | Port 2049 | [Package](https://packages.debian.org/stretch/nfs-kernel-server) |
+SMB File Server | samba | TCP ports 139/445 | UDP ports 137/138 | [Package](https://packages.debian.org/stretch/samba) | [Documentation](https://www.raspberrypi.org/magpi/samba-file-server/)
 
 Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
 
