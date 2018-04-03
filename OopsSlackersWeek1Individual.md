@@ -113,7 +113,7 @@ Links -
 
 <a name="raspbpi"></a>
 
-### Raspberry Pi Protocols and Guides -  
+### Protocols -  
 
 I'm finding a decent amount of conflicting information about iPXE and Raspberry Pi and need to dig deeper. I read its best to 
 use Network File System(NFS) for netbooting to deploy Linux. The same article said Common Internet File System(CIFS) aka 
