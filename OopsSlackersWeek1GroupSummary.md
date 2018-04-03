@@ -1,4 +1,4 @@
-# Team Oops Slackers Group Progress
+# Team Oops Slackers
 This is a summary of our groups weekly progress. 
 
 
