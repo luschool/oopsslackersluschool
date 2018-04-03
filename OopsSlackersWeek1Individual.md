@@ -4,10 +4,8 @@
 This is my documentation for my personal research and progress for week 1 of the group project.
 
 **Important Links -**
-* [Group Github Organization Link](https://github.com/OopsSlackers)
-* [Group Project Location](https://github.com/orgs/OopsSlackers/projects/1)
+* [Private GitHub Team](https://github.com/orgs/FOSSClass/teams/oops-slackers)
 * [Last Weeks Class Notes](https://github.com/luschool/oopsslackerstemp/blob/master/Notes.md)
-* [Personal Temporary Project Location](https://github.com/luschool/oopsslackerstemp/projects/1?add_cards_query=is%3Aopen)
 
 ## Table of contents
 1. [Weekly Goals](#goals)
