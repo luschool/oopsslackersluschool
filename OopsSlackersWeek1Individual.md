@@ -124,7 +124,7 @@ Protocol | Package Name | Port(s) | Package Link | Documentation
 TFTP server | tftpd-hpa | Port 69 | [Package](https://packages.debian.org/stretch/tftpd-hpa) |
 DHCP server | isc-dhcp-server | Port 6768? 4011? 1194? | [Package](https://packages.debian.org/stretch/isc-dhcp-server) | [Documentation](https://www.isc.org/dhcp-manual-pages/)
 NFS File Server | nfs-kernel-server nfs-common | Port 2049 | [Package](https://packages.debian.org/stretch/nfs-kernel-server) |
-SMB File Server | samba | TCP ports 139/445 | UDP ports 137/138 | [Package](https://packages.debian.org/stretch/samba) | [Documentation](https://www.raspberrypi.org/magpi/samba-file-server/)
+SMB File Server | samba | TCP 139/445 UDP 137/138 | [Package](https://packages.debian.org/stretch/samba) | [Documentation](https://www.raspberrypi.org/magpi/samba-file-server/)
 
 Web Server Useful? - Research needed for http boot utilization with wimboot - http://ipxe.org/howto/winpe
 
