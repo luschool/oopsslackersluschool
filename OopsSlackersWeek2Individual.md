@@ -29,7 +29,7 @@ I began researching and deploying a dhcp server when I came across dnsmasq. This
 in our project and plan to do alot more research into it as well as try to deploy it. 
 
 
-<a name="research"></a>
+<a name="tftp"></a>
 
 ## TFTP Trial - 
 
