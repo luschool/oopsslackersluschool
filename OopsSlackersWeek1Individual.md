@@ -5,7 +5,7 @@ This is my documentation for my personal research and progress for week 1 of the
 
 **Important Links -**
 * [Private GitHub Team](https://github.com/orgs/FOSSClass/teams/oops-slackers)
-* [Last Weeks Class Notes](https://github.com/luschool/oopsslackerstemp/blob/master/Notes.md)
+* [Last Weeks Class Notes](https://github.com/luschool/oopsslackersluschool/blob/master/week1notes.md)
 
 ## Table of contents
 1. [Weekly Goals](#goals)
