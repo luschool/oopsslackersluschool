@@ -4,7 +4,7 @@ This is a summary of our groups weekly progress.
 
 **Important Links -**
 * [Private GitHub Team](https://github.com/orgs/FOSSClass/teams/oops-slackers)
-* [Week 1 Summaryh](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek1GroupSummary.md)
+* [Week 1 Summary](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek1GroupSummary.md)
 
 ## Table of contents
 1. [Project Goal](#goal)
@@ -56,7 +56,7 @@ the services we need built into one. It offers both a DHCP server and a read onl
 which is just what we need. This will be one of our focuses going into next week. 
 
 Pavel led the focus on digging deeping into netboot.xyz to try to figure out what and how we go about changing it to fit our needs exactly.
-He has some good documentation [here.](https://github.com/paveldanek/Oops-Slackers/blob/master/Summary2.md)
+He has some good documentation located [here.](https://github.com/paveldanek/Oops-Slackers/blob/master/Summary2.md)
 
 
 <a name="future"></a>
