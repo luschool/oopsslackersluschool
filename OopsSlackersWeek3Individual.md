@@ -85,12 +85,12 @@ Once disabled I reset my local ethernet port and restarted my network.service.
 Surprisinly it worked and I have a new ip! I can also connect to google.com which
 I didn't expect.
 
-[DHCPTEST](pics/DHCPTest1.png)
+![DHCPTEST](pics/DHCPTest1.png)
 
 Running `cat /var/lib/misc/dnsmasq.leases` on my server I can see the details of each
 lease the service has handed out. 
 
-[leases](pics/leases.png)
+![leases](pics/leases.png)
 
 My excitement is shortlived though. I wasn't able to reach any other server that I tried
 other than google. From a few searches it probably has to do with either default gateway,
@@ -108,7 +108,7 @@ hard to say 100%.
 
 This is a good time to run a netstat to see if its listening correctly. `sudo netstat -lptu`
 
-[netstat](pics/Netstat.png)
+![netstat](pics/Netstat.png)
 
 
 I will continue testing it under different circumstances throughout the next two days 
