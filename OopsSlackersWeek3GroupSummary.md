@@ -5,7 +5,7 @@ This is a summary of our groups weekly progress.
 **Important Links -**
 * [GitHub Team Project Board](https://github.com/orgs/FOSSClass/projects/4)
 * [Week 1 Summary](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek1GroupSummary.md)
-* [Week 1 Summary](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek2GroupSummary.md)
+* [Week 2 Summary](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek2GroupSummary.md)
 
 
 ## Table of contents
@@ -19,7 +19,7 @@ This is a summary of our groups weekly progress.
 
 ## Project Goal - 
 
-Team Oops Slackers is working towards building a service that uses netbooting with iPXE for remote imaging solutions
+Team Oops Slackers is working towards building a service that uses netbooting with iPXE for remote imaging solutions 
 and network operations. We will be working in a closed environment using raspberry pi to take on the role of 
 a DHCP and TFTP server. Our end goal is remotely booting and deploying windows 7 to any computers in the classroom
 not booting properly. 
@@ -50,10 +50,13 @@ GitHub Profile | Roles | Weekly Summary
 
 Some great progress was made this week on multiple fronts.
 
-iPXE progress had a breakthrough which can be viewed [here.](https://github.com/paveldanek/Week-14-and-Oops/blob/master/Summary3.md)
+iPXE progress had a breakthrough which can be viewed [here.](https://github.com/paveldanek/Week-14-and-Oops/blob/master/Summary3.md) 
+
 HTTPS certificate documentation is located [here.](https://github.com/rarar0/TFTPslackersOops/blob/master/DocumentationHTTPS.md)
-DHCP and TFTP documentation [here.](https://github.com/rarar0/TFTPslackersOops/blob/master/DocumentationTFTP.md)
-DHCP local deployment trials documented [here.](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek3Individual.md)
+
+DHCP and TFTP documentation [here.](https://github.com/rarar0/TFTPslackersOops/blob/master/DocumentationTFTP.md) 
+
+DHCP local deployment trials documented [here.](https://github.com/luschool/oopsslackersluschool/blob/master/OopsSlackersWeek3Individual.md) 
 
 <a name="future"></a>
 
